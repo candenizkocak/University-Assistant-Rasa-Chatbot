@@ -1,0 +1,165 @@
+version: "3.1"
+
+nlu:
+
+- intent: merhaba
+  examples: |
+    - merhaba
+    - selam
+    - selamlar
+    - merhabalar
+
+- intent: tesekkur
+  examples: |
+    - teşekkür ederim
+    - teşekkürler
+    - sağ ol
+    - eyvallah
+    - saol
+
+- intent: cap
+  examples: |
+    - çift anadal
+    - çift ana dal
+    - çap
+    - çift ana dal programı
+    - çift anadal programı
+
+- intent: yap
+  examples: |
+    - yandal
+    - yandal programı
+    - yan dal
+    - yan dal programı
+    - yap
+
+- intent: bolum
+  examples: |
+    - bölümler
+    - bölüm
+    - program
+    - programlar
+
+- intent: exchange
+  examples: |
+    - exchange
+    - değişim
+    - değişim programı
+    - erasmus
+    - wonderful
+    - yurt dışı
+    - yurtdışı
+
+- intent: yurt
+  examples: |
+    - yurt
+    - yurtlar
+    - yurtları
+    - yurdu
+    - öğrenci yurdu
+    - konaklama
+    - lojman
+    - yatakhane
+    - yatak
+
+- intent: puan
+  examples: |
+    - puan
+    - başarı sırası
+    - taban puan
+    - kontenjan
+    - sıra
+    
+- intent: burs
+  examples: |
+    - indirimler
+    - burslar
+    - burs
+    - iskonto
+    - burs imkanları
+    - burs olanakları
+    - indirim
+    - iskonto
+    - burs imkanları
+
+- intent: ucret
+  examples: |
+    - öğrenim ücreti
+    - maliyet
+    - ücret
+    - fiyat
+    - taksit
+    - para
+    - kaç para
+    - ne kadar
+
+- intent: kadro
+  examples: |
+    - akademik kadro
+    - kadro
+    - akademisyenler
+    - proflar
+    - profesörler
+    - hocalar
+    - öğretim üyeleri
+    - öğretim görevlileri
+
+- intent: deprem
+  examples: |
+    - deprem
+    - deprem dayanıklılığı
+    - deprem dayanıklılık
+    - deprem bölgesi
+    - deprem riski
+
+- intent: sosyal
+  examples: |
+    - sosyal aktiviteler
+    - şenlikler
+    - etkinlikler
+    - sosyallik
+    - kulüpler
+    - kulüp
+    - spor takımları
+    - takım
+    - spor
+    - aktivite
+
+
+- intent: isletmeler
+  examples: |
+    - işletmeler
+    - kantin
+    - büfe
+    - market
+    - yemekhane
+    - kafe
+    - restoran
+    - yemek
+
+- intent: derslikler
+  examples: |
+    - derslikler
+    - derslik
+    - laboratuvar
+    - laboratuvarlar
+
+- intent: ulasim
+  examples: |
+    - ulaşım
+    - shuttle
+    - otobüs
+    - servis
+    - toplu taşıma
+
+- intent: harita
+  examples: |
+    - kampüs planı
+    - harita
+    - kampüs haritası
+    - sanal tur
+    - kampüs turu
+    - yerleşke
+
+- intent: selamlama
+  examples: |

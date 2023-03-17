@@ -1,0 +1,83 @@
+version: "3.1"
+
+intents:
+  - tesekkur
+  - cap
+  - yap
+  - bolum
+  - exchange
+  - yurt
+  - merhaba
+  - puan
+  - burs
+  - ucret
+  - kadro
+  - deprem
+  - sosyal
+  - isletmeler
+  - ulasim
+  - derslikler
+  - harita
+  - selamlama
+
+responses:
+  utter_tesekkur:
+  - text: "Rica ederim!"
+
+  utter_cap:
+  - text: "Çift Anadal: Öğrencilerimiz, lisans öğrenimleri boyunca Üniversite tarafından belirlenen esaslara uygun olmak koşuluyla iki ayrı lisans programını izleyebiliyorlar. Her iki lisans programını da başarıyla tamamlayan öğrencilerimize, öğrenim gördükleri çift anadalla ilgili lisans programları için iki ayrı 'Diploma' veriliyor."
+
+  utter_yap:
+  - text: "Yandal: Anabilim dallarından herhangi birinde öğrenim gören öğrencilerimiz, bir başka anabilim dalından da ders alabiliyorlar. Yandal programını tamamlayan öğrencilerimize 'Yandal Sertifikası' veriliyor."
+
+  utter_bolum:
+  - text: "Üniversitemizdeki tüm fakülte ve bölümlere ulaşmak için tıklayınız:\n\nhttp://aday.isikun.edu.tr/fakulte-ve-bolumler"
+
+  utter_exchange:
+  - text: "Üniversitemizin tüm Avrupa ülkelerinde toplamda 98 yükseköğretim kurumuyla gerçekleştirdiği işbirliği anlaşmalarının yanında, Erasmus+ kapsamı dışında ABD'de 4, Kazakistan'da 1, Meksika'da 1 ve İsrail'de 1 yükseköğretim kurumuyla mevcut işbirliği anlaşmaları vardır.\nDetaylı bilgi için: http://aday.isikun.edu.tr/uluslararasi-firsatlar"
+
+  utter_yurt:
+  - text: "Şile kampüsümüzde toplamda 1450 yatak kapasiteli Turuncu, Bordo, Mavi isimli 3 adet yurt vardır.\nYurtların özellikleri ve ücretleri hakkında detaylı bilgiye ulaşmak için tıklayınız:\n\nhttp://aday.isikun.edu.tr/i/images/tanitim-kit/yurt-ucretleri.jpg"
+  
+  utter_merhaba:
+  - text: "Merhaba!"
+
+  utter_puan:
+  - text: "2022 yılında tüm bölümlerin puan ve başarı sıralaması tablosuna ulaşmak için tıklayınız:\n\nhttp://aday.isikun.edu.tr/puan-ve-konenjanlar"
+
+  utter_burs:
+  - text: "ÖSYM bursu ve indirimlerinin yanında üniversitemizde 15 çeşit burs/indirim bulunmaktadır:\n\nOnur Bursu\n\nTercih İndirimi\n\nSende Işık Var İndirimi\n\nGüzel Sanatlar Lisesi İndirimi\n\nLise Bursları/İndirimi\n\nUluslararası Bakalorya İndirimleri\n\nSpor Burs ve İndirimleri\n\nŞehit Çocuğu Bursu\n\nGazi Çocuğu İndirimi\n\nEngelsiz Üniversite İndirimi\n\nFMV Işık Lisesi İndirimi\n\nFMV Çalışan İndirimi\n\nIşık Üniversitesi İndirimi\n\nFeyziyeliler Işıklılar Derneği (FID) İndirimi\n\nKardeş İndirimi\n\nGüncel ücret ve burs tablosuna ulaşmak için tıklayınız:\n\nhttp://aday.isikun.edu.tr/ucret-ve-burslar"
+
+  utter_ucret:
+  - text: "Güncel ücret ve burs tablosuna ulaşmak için tıklayınız:\nhttp://aday.isikun.edu.tr/ucret-ve-burslar"
+
+  utter_kadro:
+  - text: "İktisadi, İdari ve Sosyal Bilimler Fakültesi akademik kadrosu: https://www.isikun.edu.tr/akademik/iktisadi-idari-bilimler-fakultesi/akademik-kadro\nMühendislik ve Doğa Bilimleri Fakültesi akademik kadrosu: https://www.isikun.edu.tr/akademik/muhendislik-fakultesi/akademik-kadro\nSanat, Tasarım ve Mimarlık Fakültesi akademik kadro: https://www.isikun.edu.tr/akademik/guzel-sanatlar-fakultesi/akademik-kadro"
+
+  utter_deprem:
+  - text: "Şile ilçesi depreme karşı İBB raporlarına göre en güvenli bölgedir. Yanı sıra, Üniversitemizin Şile Kampüsü 1999 deprem yönetmeliği sonrası inşa edilmiştir.\nMaslak Kampüsümüz de gerekli çalışmalarla depreme karşı güvenli hale getirilmiştir. Kampüs yapılarımız yönetmelikte öngörülen deprem dayanıldılığı düzeyine ulaştırılmıştır."
+
+  utter_isletmeler:
+  - text: "Şile kampüsümüzde yemekhane, alternatif yemek yerleri, kafeler, market ve kırtasiye bulunmaktadır.\nMaslak kampüsümüzde yemekhane bulunmaktadır."
+
+  utter_sosyal:
+  - text: "Üniversitemizin 59 aktif kulübü ve çeşitli branşlarda spor takımları bulunmaktadır. Her yıl bahar aylarında bir bahar şenliği düzenlenir."
+
+  utter_derslikler:
+  - text: "Kampüslerimizin sanal turuna çıkmak için tıklayınız:\nhttps://www.isikun.edu.tr/hakkinda/isik-universitesini-ziyaret/sanal-kampus-turu" 
+
+  utter_ulasim:
+  - text: "Şile kampüsümüze servislerimiz, İETT otobüsleri (139, 139A, 139T) ve Çekmeköy-Şile minibüsleri ile ulaşabilirsiniz.\nMaslak kampüsümüze M2 metrosu, İETT otobüsleri ve minibüslerle ulaşabilirsiniz."
+
+  utter_harita:
+  - text: "Kampüslerimizin sanal turuna çıkmak için tıklayınız:\nhttps://www.isikun.edu.tr/hakkinda/isik-universitesini-ziyaret/sanal-kampus-turu"
+
+  utter_please_rephrase:
+  - text: Anlayamadım, lütfen talebinizi başka bir şekilde tekrarlar mısınız?
+  
+  utter_selamlama:
+  - text: "Merhaba! Ben Işık Üniversitesi tarafından geliştirilen yapay zeka danışmanıyım. Size nasıl yardımcı olabilirim?\n\n IşıkBot bölümler, ücretler, burslar, değişim programları ve daha fazlası hakkında size yardımcı olabilir."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
