@@ -1,0 +1,93 @@
+version: "3.1"
+
+rules:
+
+- rule: merhaba yazinca
+  steps:
+  - intent: merhaba
+  - action: utter_merhaba
+
+- rule: tsk
+  steps:
+  - intent: tesekkur
+  - action: utter_tesekkur
+
+- rule: cap
+  steps:
+  - intent: cap
+  - action: utter_cap
+
+- rule: yap
+  steps:
+  - intent: yap
+  - action: utter_yap
+
+- rule: bolum
+  steps:
+  - intent: bolum
+  - action: utter_bolum
+
+- rule: exchange
+  steps:
+  - intent: exchange
+  - action: utter_exchange
+
+- rule: yurt
+  steps:
+  - intent: yurt
+  - action: utter_yurt
+
+- rule: puan
+  steps:
+  - intent: puan
+  - action: utter_puan
+
+- rule: burs
+  steps:
+  - intent: burs
+  - action: utter_burs
+
+- rule: ucret
+  steps:
+  - intent: ucret
+  - action: utter_ucret
+
+- rule: kadro
+  steps:
+  - intent: kadro
+  - action: utter_kadro
+
+- rule: deprem
+  steps:
+  - intent: deprem
+  - action: utter_deprem
+
+- rule: sosyal
+  steps:
+  - intent: sosyal
+  - action: utter_sosyal
+
+- rule: isletmeler
+  steps:
+  - intent: isletmeler
+  - action: utter_isletmeler
+
+- rule: ulasim
+  steps:
+  - intent: ulasim
+  - action: utter_ulasim
+
+- rule: derslikler
+  steps:
+  - intent: derslikler
+  - action: utter_derslikler
+
+- rule: harita
+  steps:
+  - intent: harita
+  - action: utter_harita
+
+- rule: Ask the user to rephrase whenever they send a message with low NLU confidence
+  steps:
+  - intent: nlu_fallback
+  - action: utter_please_rephrase
