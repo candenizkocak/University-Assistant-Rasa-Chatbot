@@ -24,7 +24,7 @@ responses:
   - text: "Rica ederim!"
 
   utter_cap:
-  - text: "Çift Anadal: Öğrencilerimiz, lisans öğrenimleri boyunca Üniversite tarafından belirlenen esaslara uygun olmak koşuluyla iki ayrı lisans programını izleyebiliyorlar. Her iki lisans programını da başarıyla tamamlayan öğrencilerimize, öğrenim gördükleri çift anadalla ilgili lisans programları için iki ayrı 'Diploma' veriliyor."
+  - text: "Çift Anadal: Öğrencilerimiz, lisans öğrenimleri boyunca üniversite tarafından belirlenen esaslara uygun olmak koşuluyla iki ayrı lisans programını izleyebiliyorlar. Her iki lisans programını da başarıyla tamamlayan öğrencilerimize, öğrenim gördükleri çift anadalla ilgili lisans programları için iki ayrı 'Diploma' veriliyor."
 
   utter_yap:
   - text: "Yandal: Anabilim dallarından herhangi birinde öğrenim gören öğrencilerimiz, bir başka anabilim dalından da ders alabiliyorlar. Yandal programını tamamlayan öğrencilerimize 'Yandal Sertifikası' veriliyor."
@@ -51,10 +51,10 @@ responses:
   - text: "Güncel ücret ve burs tablosuna ulaşmak için tıklayınız:\nhttp://aday.isikun.edu.tr/ucret-ve-burslar"
 
   utter_kadro:
-  - text: "İktisadi, İdari ve Sosyal Bilimler Fakültesi akademik kadrosu: https://www.isikun.edu.tr/akademik/iktisadi-idari-bilimler-fakultesi/akademik-kadro\nMühendislik ve Doğa Bilimleri Fakültesi akademik kadrosu: https://www.isikun.edu.tr/akademik/muhendislik-fakultesi/akademik-kadro\nSanat, Tasarım ve Mimarlık Fakültesi akademik kadro: https://www.isikun.edu.tr/akademik/guzel-sanatlar-fakultesi/akademik-kadro"
+  - text: "İktisadi, İdari ve Sosyal Bilimler Fakültesi akademik kadrosu: https://www.isikun.edu.tr/akademik/iktisadi-idari-bilimler-fakultesi/akademik-kadro\nMühendislik ve Doğa Bilimleri Fakültesi akademik kadrosu: https://www.isikun.edu.tr/akademik/muhendislik-fakultesi/akademik-kadro\nSanat, Tasarım ve Mimarlık Fakültesi akademik kadrosu: https://www.isikun.edu.tr/akademik/guzel-sanatlar-fakultesi/akademik-kadro"
 
   utter_deprem:
-  - text: "Şile ilçesi depreme karşı İBB raporlarına göre en güvenli bölgedir. Yanı sıra, Üniversitemizin Şile Kampüsü 1999 deprem yönetmeliği sonrası inşa edilmiştir.\nMaslak Kampüsümüz de gerekli çalışmalarla depreme karşı güvenli hale getirilmiştir. Kampüs yapılarımız yönetmelikte öngörülen deprem dayanıldılığı düzeyine ulaştırılmıştır."
+  - text: "Şile ilçesi depreme karşı İBB raporlarına göre en güvenli bölgedir. Yanı sıra, Üniversitemizin Şile Kampüsü 1999 deprem yönetmeliği sonrası inşa edilmiştir.\nMaslak kampüsümüz de gerekli çalışmalarla depreme karşı güvenli hale getirilmiştir. Kampüs yapılarımız yönetmelikte öngörülen deprem dayanıklılığı düzeyine ulaştırılmıştır."
 
   utter_isletmeler:
   - text: "Şile kampüsümüzde yemekhane, alternatif yemek yerleri, kafeler, market ve kırtasiye bulunmaktadır.\nMaslak kampüsümüzde yemekhane bulunmaktadır."
